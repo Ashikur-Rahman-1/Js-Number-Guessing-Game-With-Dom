@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgba(45, 113, 117, 0.598),
+    rgba(42, 42, 137, 0.678)
+  );
+}
+
+/* First box */
+
+.firstBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.allError {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+.playerOne {
+  text-align: center;
+}
+
+.inputFieldOne {
+  padding: 15px 0;
+  padding-left: 10px;
+}
+
+.inputFieldOne:focus {
+  outline: none;
+}
+
+.Startbtn {
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Second box */
+
+.playerTwoBox {
+  display: none;
+}
+
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  text-align: center;
+}
+
+.allErrorTwo {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+.warning {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+.playerTwo {
+  text-align: center;
+}
+
+.inputFieldTwo {
+  padding: 15px 0;
+  padding-left: 10px;
+}
+
+.inputFieldTwo:focus {
+  outline: none;
+}
+
+.Guessbtn {
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.playAgain {
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
